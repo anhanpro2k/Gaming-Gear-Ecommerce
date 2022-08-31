@@ -1,0 +1,390 @@
+2021-11-25T11:43:23+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/MailchimpScheduler.php:90
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('anhanpro2k@gmai...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/MailchimpScheduler.php on line 90
+
+2021-11-25T11:46:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T11:53:28+00:00 CRITICAL Uncaught Error: Cannot assign an empty string to a string offset in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/fields/product_cat_multi_checkbox/field_product_cat_multi_checkbox.php:42
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/options.php(1167): NHP_Options_product_cat_multi_checkbox->render()
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/template.php(1743): NHP_Options->_field_input(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/template.php(1701): do_settings_fields('5_section_group', '5_section')
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/options.php(823): do_settings_sections('5_section_group')
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): NHP_Options->_options_page_html('')
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/admin.php(259): do_action('appearance_page...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(10): require_once('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/fields/product_cat_multi_checkbox/field_product_cat_multi_checkbox.php on line 42
+
+2021-11-25T11:53:38+00:00 CRITICAL Uncaught Error: Cannot assign an empty string to a string offset in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/fields/product_cat_multi_checkbox/field_product_cat_multi_checkbox.php:42
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/options.php(1167): NHP_Options_product_cat_multi_checkbox->render()
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/template.php(1743): NHP_Options->_field_input(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/template.php(1701): do_settings_fields('5_section_group', '5_section')
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/options.php(823): do_settings_sections('5_section_group')
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): NHP_Options->_options_page_html('')
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/admin.php(259): do_action('appearance_page...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(10): require_once('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/fields/product_cat_multi_checkbox/field_product_cat_multi_checkbox.php on line 42
+
+2021-11-25T11:54:02+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T11:54:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T11:54:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T11:54:20+00:00 CRITICAL Uncaught Error: Cannot assign an empty string to a string offset in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/fields/product_cat_multi_checkbox/field_product_cat_multi_checkbox.php:42
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/options.php(1167): NHP_Options_product_cat_multi_checkbox->render()
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/template.php(1743): NHP_Options->_field_input(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/template.php(1701): do_settings_fields('5_section_group', '5_section')
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/options.php(823): do_settings_sections('5_section_group')
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): NHP_Options->_options_page_html('')
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/admin.php(259): do_action('appearance_page...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(10): require_once('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/fields/product_cat_multi_checkbox/field_product_cat_multi_checkbox.php on line 42
+
+2021-11-25T11:56:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T11:57:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T11:57:31+00:00 CRITICAL Uncaught Error: Cannot assign an empty string to a string offset in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/fields/product_cat_multi_checkbox/field_product_cat_multi_checkbox.php:42
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/options.php(1167): NHP_Options_product_cat_multi_checkbox->render()
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/template.php(1743): NHP_Options->_field_input(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/template.php(1701): do_settings_fields('5_section_group', '5_section')
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/options.php(823): do_settings_sections('5_section_group')
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): NHP_Options->_options_page_html('')
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/admin.php(259): do_action('appearance_page...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(10): require_once('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/fields/product_cat_multi_checkbox/field_product_cat_multi_checkbox.php on line 42
+
+2021-11-25T11:58:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T11:59:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T11:59:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T12:00:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T12:01:29+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-11-25T12:01:41+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-11-25T12:03:30+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T12:03:39+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-11-25T12:09:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T12:10:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T12:10:34+00:00 CRITICAL Uncaught Error: Cannot assign an empty string to a string offset in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/fields/product_cat_multi_checkbox/field_product_cat_multi_checkbox.php:42
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/options.php(1167): NHP_Options_product_cat_multi_checkbox->render()
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/template.php(1743): NHP_Options->_field_input(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/template.php(1701): do_settings_fields('5_section_group', '5_section')
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/options.php(823): do_settings_sections('5_section_group')
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): NHP_Options->_options_page_html('')
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/admin.php(259): do_action('appearance_page...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(10): require_once('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/fields/product_cat_multi_checkbox/field_product_cat_multi_checkbox.php on line 42
+
+2021-11-25T12:14:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T12:15:45+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T12:15:51+00:00 CRITICAL Uncaught Error: Cannot assign an empty string to a string offset in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/fields/product_cat_multi_checkbox/field_product_cat_multi_checkbox.php:42
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/options.php(1167): NHP_Options_product_cat_multi_checkbox->render()
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/template.php(1743): NHP_Options->_field_input(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/template.php(1701): do_settings_fields('5_section_group', '5_section')
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/options.php(823): do_settings_sections('5_section_group')
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): NHP_Options->_options_page_html('')
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/admin.php(259): do_action('appearance_page...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(10): require_once('/Applications/X...')
+#9 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/options/fields/product_cat_multi_checkbox/field_product_cat_multi_checkbox.php on line 42
+
+2021-11-25T12:16:00+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-11-25T12:16:02+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T12:16:13+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Features/Marketing.php:270
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Features/Marketing.php(270): count(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Marketing.php(118): Automattic\WooCommerce\Admin\Features\Marketing->get_knowledge_base_posts('marketing')
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1140): Automattic\WooCommerce\Admin\API\Marketing->get_knowledge_base_posts(Object(WP_REST_Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-admin/marke...', Array, NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/rest-api.php(370): WP_REST_Server->serve_request('/wc-admin/marke...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): rest_api_loaded(Object(WP))
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp.php(388): do_action_ref_array('parse_request', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp.php(750): WP->parse_request('')
+#11 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/functions.php(1291): WP->main('')
+#12 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-blog-header.php(16): wp()
+#13 /Applications/XAMPP/xamppfiles/htdocs/wordpress/index.php(17): require('/Applications/X...')
+#14 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Features/Marketing.php on line 270
+
+2021-11-25T12:20:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function mts_disable_auto_update_theme(), 1 passed in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php:117
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): mts_disable_auto_update_theme(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/update.php(1080): apply_filters('auto_update_the...', NULL, Object(stdClass))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/theme.php(740): wp_is_auto_update_forced_for_item('theme', NULL, Object(stdClass))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/themes.php(212): wp_prepare_themes_for_js()
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions.php on line 117
+
+2021-11-25T12:20:52+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-11-25T12:32:06+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-11-25T12:32:14+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+

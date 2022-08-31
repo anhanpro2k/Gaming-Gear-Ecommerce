@@ -1,0 +1,76 @@
+2021-12-13T08:11:55+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Features/Marketing.php:270
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Features/Marketing.php(270): count(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Marketing.php(118): Automattic\WooCommerce\Admin\Features\Marketing->get_knowledge_base_posts('marketing')
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1140): Automattic\WooCommerce\Admin\API\Marketing->get_knowledge_base_posts(Object(WP_REST_Request))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/rest-api/class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-admin/marke...', Array, NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/rest-api.php(370): WP_REST_Server->serve_request('/wc-admin/marke...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): rest_api_loaded(Object(WP))
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp.php(388): do_action_ref_array('parse_request', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp.php(750): WP->parse_request('')
+#11 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/functions.php(1291): WP->main('')
+#12 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-blog-header.php(16): wp()
+#13 /Applications/XAMPP/xamppfiles/htdocs/wordpress/index.php(17): require('/Applications/X...')
+#14 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Features/Marketing.php on line 270
+
+2021-12-13T10:13:32+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-12-13T11:59:52+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-12-13T12:43:58+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-12-13T14:00:29+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/MailchimpScheduler.php:90
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('anhanpro2k@gmai...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/MailchimpScheduler.php on line 90
+

@@ -1,0 +1,27 @@
+2021-11-29T11:49:26+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/MailchimpScheduler.php:90
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('anhanpro2k@gmai...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/MailchimpScheduler.php on line 90
+
+2021-11-29T13:19:23+00:00 CRITICAL Uncaught Error: Attempt to modify property "updates" on bool in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/wp-downgrade/wp-downgrade.php:182
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(305): wpdg_specific_version(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(false, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/option.php(1945): apply_filters('site_transient_...', false, 'update_core')
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/update.php(37): get_site_transient('update_core')
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(301): wp_version_check()
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/class-core-upgrader.php(219): do_action('upgrader_proces...', Object(Core_Upgrader), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/update-core.php(877): Core_Upgrader->upgrade(Object(stdClass), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/update-core.php(1106): do_core_upgrade(true)
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/wp-downgrade/wp-downgrade.php on line 182
+

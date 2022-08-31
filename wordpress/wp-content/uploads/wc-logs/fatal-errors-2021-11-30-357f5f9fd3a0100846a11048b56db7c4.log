@@ -1,0 +1,135 @@
+2021-11-30T00:43:53+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-11-30T07:52:07+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-11-30T07:53:58+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-11-30T07:54:07+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-11-30T07:54:12+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-11-30T07:54:13+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-11-30T07:54:14+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-11-30T08:03:38+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
+2021-11-30T09:07:54+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php(32): abs('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-widget.php(534): mts_advanced_ads->form(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1122): wp_widget_control(Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(1070): WP_Customize_Widgets->get_widget_control(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-customize-widgets.php(712): WP_Customize_Widgets->get_available_widgets()
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/mts_ecommerce/functions/widget-ad.php on line 32
+
